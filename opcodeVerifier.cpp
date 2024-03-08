@@ -124,8 +124,8 @@ int main()
         else if (format == 2)
         {
             string first_opcode = binaryNumber.substr(0, 8);
-            string reg1 = binaryNumber.substr(8, 12);
-            string reg2 = binaryNumber.substr(12, 16);
+            string reg1 = binaryNumber.substr(8, 4);
+            string reg2 = binaryNumber.substr(12, 4);
             auto tempop = f2.find(first_opcode);
             auto tempreg1 = reg.find(reg1);
             auto tempreg2 = reg.find(reg2);
@@ -162,7 +162,7 @@ int main()
             char b = binaryNumber[9];
             char p = binaryNumber[10];
             char e = binaryNumber[11];
-            string address = binaryNumber.substr(12, 24);
+            string address = binaryNumber.substr(12, 12);
             auto tempop = f3.find(opcode);
 
             if (tempop != f3.end())
@@ -239,7 +239,7 @@ int main()
             char b = binaryNumber[9];
             char p = binaryNumber[10];
             char e = binaryNumber[11];
-            string address = binaryNumber.substr(12, 24);
+            string address = binaryNumber.substr(12, 12);
             auto tempop = f3.find(opcode);
             if (tempop != f3.end())
             {

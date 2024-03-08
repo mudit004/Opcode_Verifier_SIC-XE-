@@ -3,37 +3,7 @@ Invalid Instruction. x must be zero in indirect and immediate mode of addressing
 Invalid Instruction. b and p should be zero
 Instruction is Valid
 Invalid Instruction. Opcode in this format does not exist
-Invalid Instruction. Register 01000111 does not exist
-Invalid Instruction. Invalid Value of register E. It should be 0
-Instruction is Valid
-Invalid Instruction. b and p should be zero
-Instruction is Valid
-RSUB instruction must have operand 00Instruction is Valid
-Invalid Instruction. x must be zero in indirect and immediate mode of addressing
-Invalid Instruction. b and p should be zero
-Instruction is Valid
-Invalid Instruction. Opcode in this format does not exist
-Invalid Instruction. Register 01000111 does not exist
-Invalid Instruction. Invalid Value of register E. It should be 0
-Instruction is Valid
-Invalid Instruction. b and p should be zero
-Instruction is Valid
-RSUB instruction must have operand 00Instruction is Valid
-Invalid Instruction. x must be zero in indirect and immediate mode of addressing
-Invalid Instruction. b and p should be zero
-Instruction is Valid
-Invalid Instruction. Opcode in this format does not exist
-Invalid Instruction. Register 01000111 does not exist
-Invalid Instruction. Invalid Value of register E. It should be 0
-Instruction is Valid
-Invalid Instruction. b and p should be zero
-Instruction is Valid
-RSUB instruction must have operand 00Instruction is Valid
-Invalid Instruction. x must be zero in indirect and immediate mode of addressing
-Invalid Instruction. b and p should be zero
-Instruction is Valid
-Invalid Instruction. Opcode in this format does not exist
-Invalid Instruction. Register 01000111 does not exist
+Invalid Instruction. Register 0111 does not exist
 Invalid Instruction. Invalid Value of register E. It should be 0
 Instruction is Valid
 Invalid Instruction. b and p should be zero
