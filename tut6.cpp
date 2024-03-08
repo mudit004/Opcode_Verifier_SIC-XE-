@@ -32,8 +32,8 @@ typedef pair<long long, long long> pi;
 int main()
 {
 
-    // ios::sync_with_stdio(0);
-    // cin.tie(0);
+    ios::sync_with_stdio(0);
+    cin.tie(0);
     Opcodes opc = Opcodes();
     // cout << opc.f1["11000100"];
     int t;
@@ -41,7 +41,6 @@ int main()
     while (t--)
     {
         string hexNumber;
-        cout << "Enter a hexadecimal number: ";
         cin >> hexNumber;
 
         string binaryNumber = "";
